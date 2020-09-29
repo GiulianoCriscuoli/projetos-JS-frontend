@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="screen">
+        <div class="left-side">
+            <img src="images/financial_data.png" alt="finanças">
+        </div>
+        <div class="right-side">
+           
+            <form action="POST">
+                <h2>Faça o seu cadastro</h2>
+                <label for="name">
+                    <input class="focus" type="text" name="name" placeholder="Digite seu nome.." autocomplete="off" />
+                </label>
+                <label for="email">
+                    <input class="focus" type="email" name="email" placeholder="Digite seu e-mail..." autocomplete="off" />
+                </label>
+                <label for="password">
+                    <input class="focus" type="password" name="password" placeholder="Digite sua senha..." />
+                </label>
+                <label for="submit">
+                    <input type="submit" value="Cadastrar" />
+                </label><br />
+                <span>Já tem conta? <a href="">Faça o seu login</a></span>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
