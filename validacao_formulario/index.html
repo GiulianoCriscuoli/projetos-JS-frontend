@@ -13,16 +13,28 @@
         </div>
         <div class="right-side">
            
-            <form action="POST">
+            <form action="POST" action="signup.php" class="validator">
                 <h2>Faça o seu cadastro</h2>
                 <label for="name">
-                    <input class="focus" type="text" name="name" placeholder="Digite seu nome.." autocomplete="off" />
+                    <input class="focus" 
+                    type="text" 
+                    name="name" 
+                    placeholder="Digite seu nome.." 
+                    autocomplete="off"
+                    data-rules="required|min=2" />
                 </label>
                 <label for="email">
-                    <input class="focus" type="email" name="email" placeholder="Digite seu e-mail..." autocomplete="off" />
+                    <input class="focus" 
+                    type="email" 
+                    name="email" 
+                    placeholder="Digite seu e-mail..." 
+                    autocomplete="off" />
                 </label>
                 <label for="password">
-                    <input class="focus" type="password" name="password" placeholder="Digite sua senha..." />
+                    <input class="focus" 
+                    type="password" 
+                    name="password" 
+                    placeholder="Digite sua senha..." />
                 </label>
                 <label for="submit">
                     <input type="submit" value="Cadastrar" />
