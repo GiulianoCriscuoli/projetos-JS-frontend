@@ -38,7 +38,17 @@ let validator = {
                         }
                     break;
                     case 'min': 
-
+                        if(input.value.length < ruleDetails[1]) {
+                            return 'O campo tem que ter no mínimo '+ ruleDetails[1] +' caracteres'
+                        }
+                    break;
+                    case 'email': 
+                        if(input.value !== '') {
+                            let rgx = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                            if(!rgx.test(input.value.toLowerCase())) {
+                                return 'Email diitado é inválido!';
+                            }
+                        }
                     break;
                         
                 }
