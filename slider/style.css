@@ -28,7 +28,6 @@ header {
 .slider-width {
     height: 100%;
     display: flex;
-    width: calc(100vw * 3);
     transition: all ease .3s;
 
 }
@@ -38,4 +37,22 @@ header {
     height: inherit;
     background-position: center;
     background-size: cover;
+}
+
+.slider-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+}
+
+.slider-control {
+    width: 50px;
+    height: 50px;
+    background-color: ivory;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
 }

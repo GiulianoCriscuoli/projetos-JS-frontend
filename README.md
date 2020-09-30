@@ -7,6 +7,11 @@
 
 ## Descrição do projeto 1: sistema de login com validações de erros personalizados, responsivo e com tela de sucesso, caso o usuário preencha todos os campos de forma correta.
 
+## Projeto 2: Slider
+
+
+## Descrição do projeto 2: criando um slider com 3 imagens, utlizando javascript.
+
 # Tecnologias utilizadas
 
 1. HTML/CSS
