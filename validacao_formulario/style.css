@@ -81,11 +81,101 @@ a:hover {
     background-color: #14a94a;
     transform: translateY(-2px);
 }
+span {
+    font-size: 20px;
+}
 
 .error {
     background-color: #b60d32;
     color: #EEE;
     padding: 3px;
     font-size: 11px;
+}
+
+@media (max-width: 1000px) and (min-width: 850px) {
+    .left-side img {
+        width: 100%;
+    }
+    .right-side form {
+        width: 300px;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .right-side form h2 {
+        font-size: 28px;
+    }
+    .right-side input {
+        font-size: 18px;
+    }
+    .right-side input[type="submit"] {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    span {
+        font-size: 28px;
+        display:flex;
+        flex-direction: column;
+
+    }
+       
+}
+    
+
+
+@media (max-width: 850px) and (min-width:550px) {
+    .left-side  {
+        display: none;
+    }
+
+    .right-side {
+        width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-side form {
+
+        width: 80%;
+    
+    }
+
+    .right-side form h2 {
+        font-size: 34px;
+    }
+
+    .right-side input {
+        font-size: 22px;
+        height: 60px;
+    }
+    .right-side input[type="submit"] {
+        font-size: 30px;
+        
+    }
+    span {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 650px) and (min-width: 350px) {
+    .left-side  {
+        display: none;
+    }
+    .right-side {
+        width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-side form {
+
+        width:100%;
+        padding: 20px;
+    
+    }
+    span {
+        font-size: 18px;
+    }
+
 }
 

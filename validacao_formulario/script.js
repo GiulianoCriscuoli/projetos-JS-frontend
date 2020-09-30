@@ -49,7 +49,7 @@ let validator = {
                         if(input.value !== '') {
                             let rgx = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
                             if(!rgx.test(input.value.toLowerCase())) {
-                                return 'Email diitado é inválido!';
+                                return 'Email digitado é inválido!';
                             }
                         }
                     break;
