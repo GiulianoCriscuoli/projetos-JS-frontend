@@ -20,7 +20,10 @@ let validator = {
         }
 
         if(send) {
-            form.submit();
+            setTimeout(function() {
+                form.submit();
+            }, 2000);
+            
         }
 
     }, 
