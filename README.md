@@ -19,6 +19,12 @@
 
 ## Descrição do projeto 3: menu toggle com transição ao clicar no botão.
 
+## Projeto 4: Notificações
+
+![](notificacao/images/notify.gif);
+
+## Descrição do projeto 4: gera um alerta de notificações ao clicar no botão.
+
 # Tecnologias utilizadas
 
 1. HTML/CSS
