@@ -13,6 +13,12 @@
 
 ## Descrição do projeto 2: criando um slider com 3 imagens, utlizando javascript.
 
+## Projeto 3: Menu toggle
+
+![](hamburger_button/images/button.gif);
+
+## Descrição do projeto 3: menu toggle com transição ao clicar no botão.
+
 # Tecnologias utilizadas
 
 1. HTML/CSS
