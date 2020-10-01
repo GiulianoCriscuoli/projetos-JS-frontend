@@ -9,6 +9,7 @@
 
 ## Projeto 2: Slider
 
+![](slider/images/slider.gif);
 
 ## Descrição do projeto 2: criando um slider com 3 imagens, utlizando javascript.
 
